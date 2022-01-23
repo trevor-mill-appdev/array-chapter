@@ -12,5 +12,5 @@ user_string = gets.chomp
 
 user_numbers = user_string.split
 
-n = user_numbers[-2].to_i
+n = user_numbers[-2].to_f
 p n**2
